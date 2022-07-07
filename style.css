@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Oswald', sans-serif;
 }
 .first-sect{
     background-image: url(images/donation9.jpg);
@@ -22,7 +23,7 @@ body{
 }
 .link-btn{
     text-decoration: none;
-    background-image: linear-gradient(yellow,red);
+    background-image: linear-gradient(tomato,red);
     font-weight: 700;
     padding: 10px 40px;
     border-radius: 10px;
@@ -53,6 +54,7 @@ body{
     
     margin: 0 auto;
     display: flex;
+    margin-bottom: 150px;
 }
 .box2{
     width: 30%;
@@ -70,3 +72,37 @@ body{
 .bg-color3{
     background-color: darksalmon;
 }
+.contribution{
+    display: flex;
+    margin-bottom: 150px;
+    margin-left: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 400px;
+    height: 400px;
+}
+.abt-me{
+    text-align: center;
+    width: 960px;
+    
+    margin: 0 auto;
+}
+#subs{
+    width: 960px;
+    margin: 0 auto;
+    background-color: bisque;
+    padding: 40px;
+    text-align: center;
+
+}
+footer{
+    margin-top: 150px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+    
